@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 16px;
+}
+.select-proj {
+  padding: 5px, 16px;
+  align-items: center;
+  width: 170px;
+  height: 32px;
+}
+.body-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 16px 10px;
+}

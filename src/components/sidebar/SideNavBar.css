@@ -1,0 +1,47 @@
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  border-right: 1px solid #d9d9d9;
+}
+.nav-container {
+  display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.nav-container:hover {
+  background-color: #fff;
+  border-left: 4px solid #2f54eb;
+}
+.navicons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  font-size: small;
+  font-weight: 300;
+  transition: all 0.5s;
+}
+
+.navicons:hover {
+  background: #fff;
+  color: #2f54eb;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.logo {
+  font-size: 24px;
+  padding-right: 10px;
+}
+.logo:hover {
+  color: #2f54eb;
+  cursor: pointer;
+}
+.navname {
+  padding-left: "9px";
+  justify-content: "center";
+  font-size: "0.5px";
+  font-family: "Poppins";
+  font-weight: normal;
+  display: flex;
+}

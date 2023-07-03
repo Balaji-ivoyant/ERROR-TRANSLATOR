@@ -1,0 +1,23 @@
+.error-layout {
+  /* margin: 0 auto; */
+
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* overflow: auto; */
+  /* width: 100%; */
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  /* height: fit-content; */
+  /* width: 100%; */
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+  /* margin-left: 6px; */
+  /* width: 100%; */
+}

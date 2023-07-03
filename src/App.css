@@ -1,0 +1,31 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body > div {
+  display: flex !important;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.app {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* .main{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+} */

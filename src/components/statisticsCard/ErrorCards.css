@@ -1,0 +1,34 @@
+.ErrorCards {
+  display: flex;
+  margin-left: 12px;
+  height: 72px;
+  padding: 0 16px;
+  justify-content: center;
+  border-color: #d6e4ff;
+  background-color: #f0f5ff;
+}
+.card-title {
+  font-size: 13px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #262626;
+}
+.error-count {
+  font-size: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #597ef7;
+}
+.error-icon {
+  background-color: #d6e4ff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
